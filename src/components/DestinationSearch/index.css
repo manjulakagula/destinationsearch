@@ -1,0 +1,42 @@
+/* Write your CSS here */
+.main-container {
+  background-color: white;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading-search-container {
+  height: 90vh;
+}
+.heading {
+  font-size: 30px;
+  text-align: center;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f5f9;
+  margin-left: 250px;
+  margin-right: 250px;
+  flex-wrap: nowrap;
+  border-radius: 10px;
+}
+.search {
+  padding: 10px;
+  border-radius: 10px;
+  color: #252627;
+  background-color: #f1f5f9;
+  border-width: 0px;
+}
+.search-image {
+  width: 30px;
+  height: 30px;
+}
+
+.unordered-list-container {
+  display: flex;
+  flex-wrap: wrap;
+}
